@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html ng-app="app" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bay Area Coders</title>
+    <meta name="description" content="bay area coders">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1">
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/vendor.c26dcd70.css">
+    <link rel="stylesheet" href="styles/main.4ffbe0d6.css"> </head>
+
+<body ng-controller="SendController" class="cube">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- ### Preload screen ###  -->
+    <div class="bac-animation-preload">
+        <ul>
+            <li class="one"></li>
+            <li class="two"></li>
+            <li class="three"></li>
+            <li class="four"></li>
+            <li class="five"></li>
+        </ul>
+    </div>
+    <!-- ### Header ###  -->
+    <header class="bac-header">
+        <div class="bac-blackscreen"> </div>
+        <section class="bac-sidebar"> <button class="c-hamburger c-hamburger--htx bac-hambmenu cube"> <span>toggle menu</span> </button>
+            <nav class="bac-nav">
+                <ul id="bac-navbar" class="bac-navbar">
+                    <li data-menuanchor="landing"><a href="#landing">Home</a></li>
+                    <li data-menuanchor="about"><a href="#about">About Us</a></li>
+                    <li data-menuanchor="whatWeDo"><a href="#whatWeDo">What we do</a></li>
+                    <li data-menuanchor="ourClients"><a href="#ourClients">Our Clients</a></li>
+                    <li data-menuanchor="ourTeam"><a href="#ourTeam">Our Team</a></li>
+                    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="bac-menu-title-container">
+                <p class="bac-menu-title">BayAreaCoders</p>
+            </div>
+            <div class="bac-contact-container">
+                <a href="#contact">
+                    <?xml version="1.0" encoding="utf-8"?> <svg version="1.1" class="bac-contact-icon" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-131 129 36 43" width="38" height="38" xml:space="preserve"> <g id="Desktop-Copy-7" transform="translate(-50.000000, -616.000000)" sketch:type="MSArtboardGroup"> <g id="Group" transform="translate(-18.000000, 0.000000)" sketch:type="MSLayerGroup"> <g id="notebook-of-contacts" transform="translate(68.000000, 616.000000)" sketch:type="MSShapeGroup"> <path id="Shape" class="icon-path" d="M-124.3,150.5c0,0.9-0.7,1.7-1.7,1.7h-3.3c-0.9,0-1.7-0.7-1.7-1.7l0,0c0-0.9,0.7-1.7,1.7-1.7
+                             h3.3C-125.1,148.8-124.3,149.6-124.3,150.5L-124.3,150.5L-124.3,150.5z M-124.3,139.9c0-0.9-0.7-1.7-1.7-1.7h-3.3
+                             c-0.9,0-1.7,0.7-1.7,1.7l0,0c0,0.9,0.7,1.7,1.7,1.7h3.3C-125.1,141.6-124.3,140.8-124.3,139.9L-124.3,139.9L-124.3,139.9z
+                             M-124.3,161.1c0-0.9-0.7-1.7-1.7-1.7h-3.3c-0.9,0-1.7,0.7-1.7,1.7l0,0c0,0.9,0.7,1.7,1.7,1.7h3.3
+                             C-125.1,162.7-124.3,162-124.3,161.1L-124.3,161.1L-124.3,161.1z M-95,134.3v32.4c0,2.9-2.4,5.3-5.3,5.3h-23.3
+                             c-2.9,0-5.3-2.4-5.3-5.3v-2.6h3c1.7,0,3-1.3,3-3c0-1.6-1.3-3-3-3h-3v-4.6h3c1.7,0,3-1.3,3-3s-1.3-3-3-3h-3v-4.6h3
+                             c1.7,0,3-1.3,3-3s-1.3-3-3-3h-3v-2.6c0-2.9,2.4-5.3,5.3-5.3h23.3C-97.4,129-95,131.4-95,134.3L-95,134.3z M-116.1,144.7
+                             c0,2.8,2.3,5.1,5.1,5.1c2.8,0,5.1-2.3,5.1-5.1c0-2.8-2.3-5.1-5.1-5.1C-113.8,139.6-116.1,141.9-116.1,144.7L-116.1,144.7z
+                             M-103,157.2c0-3.1-2.6-5.7-5.7-5.7h-4.6c-3.1,0-5.7,2.5-5.7,5.7v2.3h16V157.2L-103,157.2z"/> </g> </g> </g> </svg> </a>
+            </div> <span class="bac-icon-container"> <a href="https://www.facebook.com/bayareacoders/"><i class="fa fa-facebook fa-round"></i></a> <a href="https://www.linkedin.com/company/bay-area-coders-llc"><i class="fa fa-linkedin fa-round"></i></a> <a href="https://twitter.com/bay_area_coders"><i class="fa fa-twitter fa-round"></i></a> </span> </section>
+    </header>
+    <!-- ### Sections, Fullpage is used as a wrapper for fullpage.js ###  -->
+    <div id="fullpage" class="fullpage-wrapper">
+        <!-- ### HOME ###  -->
+        <section class="section active bac-home bac-fullpage" data-anchor="landing">
+            <div class="bac-logo-container hvr-sweep-to-right"> <img src="images/lamp.587f6eb3.png" alt="lamp" class="">
+                <p class="hvr-skew-forward">Bay Area Coders</p> <span>Developing exceptional solutions</span> </div>
+            <a href="#about" class="btn btn-fab bac-fab-down hvr-glow hvr-radial-in"> <i class="material-icons">keyboard_arrow_down</i>
+                <div class="ripple-container"></div>
+            </a>
+        </section>
+        <!-- ### END_HOME ###  -->
+        <!-- ### About US ###  -->
+        <section class="section bac-about" data-anchor="about">
+            <div class="bac-image-top" style="display: none"> </div>
+            <div class="container">
+                <div class="animate-this row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="bac-header bs-component">
+                            <h1>Exceptional team, developing exceptional solutions</h1>
+                            <h2>Hire developers you can trust</h2> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12 bac-article-col">
+                        <div class="bs-component bac-article">
+                            <p> We are a San Francisco based company committed to providing cutting edge technology solutions. Driven by our belief in building successful relationships, we work hard to ensure our clients feel heard, respected, and their priorities
+                                become our own. Bay Area Coders is your team when you need talent in the areas of web and mobile application development and design. </p>
+                            <p> We specialize in recruiting the best developers from around the world, to deliver the best results for you fast. <br> Our team will work for you, whether it be on a temporary or full time bases, and start bringing value right
+                                away. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate-this rowfx bac-cards-row">
+                    <div class="colfx-xs-12 colfx-sm-8 colfx-md-4 colfx-lg-4">
+                        <div class="mt-card first-card large">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <div class="activator"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1010 511 171 123"> <style type="text/css">.st-about0 { fill: #00ACC1; }
+                                .st-about1 {fill: #FFCA28; }
+                                .st-about2 { fill: #FFB300; }</style> <rect x="-1010" y="511" class="st-about0" width="171" height="123"/> <path class="st-about1" d="M-938.1 543c-10.5 0-18.9 8.5-18.9 18.9 0 20.4 30.2 44 35.5 48v-57.2C-924.7 547-930.9 543-938.1 543L-938.1 543z"/> <path class="st-about2" d="M-905.9 543c-7.1 0-13.3 3.9-16.6 9.8V610c5.3-4 35.5-27.6 35.5-48C-887 551.5-895.5 543-905.9 543L-905.9 543z"/> </svg>                                    </div>
+                            </div>
+                            <div class="mt-card-content"> <span class="mt-card-title activator grey-text text-darken-4">Passion</span>
+                                <p>In order to perform best work you need to have the best tools at any time. </p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p>In order to perform best work you need to have the best tools at any time. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colfx-xs-12 colfx-sm-8 colfx-md-4 colfx-lg-4">
+                        <div class="mt-card second-card large">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <div class="activator"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1011 511 168 123"> <style type="text/css">.st-aboutfit0{fill:#00ACC1;}
+                                .st-aboutfit1{fill:#99E9EC;}
+                                .st-aboutfit2{fill:#66DDE2;}
+                                .st-aboutfit3{fill:#F4F4F4;}
+                                .st-aboutfit4{fill:#E0E0E0;}
+                                .st-aboutfit5{fill:#FFCA28;}
+                                .st-aboutfit6{fill:#FFB300;}</style> <rect x="-1011" y="511" class="st-aboutfit0" width="168" height="123"/> <path class="st-aboutfit1" d="M-929.5 590.5V584h-10.3v-2.3c0-5.7 4.6-10.3 10.3-10.3v-2.1c-3.5 0-6.3-2.8-6.3-6.3 0-3.5 2.8-6.3 6.3-6.3v-4.2c-10.4 0-18.9 8.5-18.9 18.9C-948.4 582-939.9 590.5-929.5 590.5L-929.5 590.5z"/> <path class="st-aboutfit2" d="M-923.2 562.9c0 3.5-2.8 6.3-6.3 6.3v2.1c5.7 0 10.3 4.6 10.3 10.3v2.3h-10.3v6.5c10.4 0 18.9-8.5 18.9-18.9s-8.5-18.9-18.9-18.9v4.2C-926 556.8-923.2 559.6-923.2 563.1L-923.2 563.1z"/> <path class="st-aboutfit3" d="M-935.8 562.97c0 3.5 2.8 6.3 6.3 6.3v-12.5C-932.9 556.8-935.8 559.6-935.8 563.1L-935.8 563.1z"/> <path class="st-aboutfit4" d="M-929.5 556.8v12.5c3.5 0 6.3-2.8 6.3-6.3C-923.2 559.6-926 556.8-929.5 556.8z"/> <path class="st-aboutfit3" d="M-919.2 581.7c0-5.7-4.6-10.3-10.3-10.3s-10.3 4.6-10.3 10.3v2.3h20.5V581.7L-919.2 581.7z"/> <path class="st-aboutfit5" d="M-897.1 600.7l-14.2-14.2c-1 1.2-2.1 2.3-3.2 3.2l14.2 14.2L-897.1 600.7 -897.1 600.7z"/> <path class="st-aboutfit6" d="M-911.3 586.4c3.3-4.1 5.4-9.3 5.4-14.9 0-13-10.5-23.5-23.5-23.5 -13 0-23.5 10.5-23.5 23.5s10.5 23.5 23.5 23.5c5.7 0 10.9-2 14.9-5.4C-913.4 588.7-912.3 587.6-911.3 586.4L-911.3 586.4zM-929.5 552.6c10.4 0 18.9 8.5 18.9 18.9s-8.5 18.9-18.9 18.9 -18.9-8.5-18.9-18.9C-948.4 561.1-939.9 552.6-929.5 552.6L-929.5 552.6z"/> </svg>                                    </div>
+                            </div>
+                            <div class="mt-card-content bac-fit-content"> <span class="mt-card-title activator grey-text text-darken-4">Fit</span>
+                                <p>We define fit as the best person being in the best position at the best possible time. </p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p>We define fit as the best person being in the best position at the best possible time. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colfx-xs-12 colfx-sm-8 colfx-md-4 colfx-lg-4">
+                        <div class="mt-card third-card large">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <div class="activator"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1011 511 168 123"> <style type="text/css">.st-aboutcomm0{fill:#00ACC1;}
+                                .st-aboutcomm1{fill:#FFCA28;}
+                                .st-aboutcomm2{fill:#FFB300;}</style> <rect x="-1011" y="511" class="st-aboutcomm0" width="168" height="123"/> <path class="st-aboutcomm1" d="M-944.5 552.3c-5.4 5.4-8.3 12.5-8.3 20.1 0 5.4 1.5 10.5 4.3 15l-4.5 13.6 13.6-4.5c4.5 2.8 9.7 4.3 15 4.3V544C-932 544-939.1 547-944.5 552.3L-944.5 552.3z"/> <path class="st-aboutcomm2" d="M-924.4 544v56.8c7.6 0 14.7-3 20.1-8.3 5.4-5.4 8.3-12.5 8.3-20.1 0-7.6-3-14.7-8.3-20.1C-909.7 547-916.8 544-924.4 544z"/> </svg>                                    </div>
+                            </div>
+                            <div class="mt-card-content bac-comm-content"> <span class="mt-card-title activator grey-text text-darken-4">Communication</span>
+                                <p>To deliver the best product to you our developers need to be great communicators. </p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p>To deliver the best product to you our developers need to be great communicators. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#landing" class="btn btn-danger btn-fab bac-fab-up hvr-glow hvr-radial-in"> <i class="material-icons">keyboard_arrow_up</i>
+                    <div class="ripple-container"></div>
+                </a>
+            </div>
+        </section>
+        <!-- ### END_ABOUT ###  -->
+        <!-- ### whatWeDo ###  -->
+        <section class="section bac-whatWeDo" data-anchor="whatWeDo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="bac-header bs-component">
+                            <h1>We <span>support</span> your needs in</h1> </div>
+                    </div>
+                </div>
+                <div class="row bac-cards-row bac-wwd-cards-row">
+                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                        <div class="mt-card">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <div class="activator"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1004 511 183 123"> <style type="text/css">.stwa0 {
+                                fill: #4DD0E1;
+                                }
+                                .stwa1 {
+                                fill: #26C6DA;
+                                }
+                                .stwa2 {
+                                fill: #ECF0F1;
+                                }
+                                .stwa3 {
+                                fill: #334A5C;
+                                }
+                                .stwa4 {
+                                fill: #ED7161;
+                                }
+                                .stwa5 {
+                                fill: #F0C419;
+                                }
+                                .stwa6 {
+                                fill: #4FBA6F;
+                                }
+                                .stwa7 {
+                                fill: #8697CB;
+                                }
+                                .stwa8 {
+                                fill: #BDC3C7;
+                                }
+                                .stwa9 {
+                                fill: #67B9CC;
+                                }</style> <rect x="-1004" y="511" class="stwa0" width="183" height="123"/> <path class="stwa1" d="M-1004 511l183.9 123V511H-1004z"/> <rect x="-943.5" y="539" class="stwa2" width="66" height="71"/> <rect x="-943.5" y="539" class="stwa3" width="66" height="14.7"/> <path class="stwa7" d="M-943.5 553.7v23.3h6.8v-7.3h13.6v7.3h5.7v-7.3h13.6v7.3h5.7v-7.3h13.6v7.3h6.8v-23.3H-943.5z"/> <path class="stwa8" d="M-924.2 592.9H-935.5c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-923.5 592.9-924.2 592.9L-924.2 592.9z"/> <path class="stwa8" d="M-924.2 597.8H-935.5c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-923.5 597.8-924.2 597.8L-924.2 597.8z"/> <path class="stwa8" d="M-924.2 602.7H-935.5c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-923.5 602.7-924.2 602.7L-924.2 602.7z"/> <path class="stwa8" d="M-904.8 592.9h-11.4c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-904.2 592.9-904.8 592.9L-904.8 592.9z"/> <path class="stwa8" d="M-904.8 597.8h-11.4c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-904.2 597.8-904.8 597.8L-904.8 597.8z"/> <path class="stwa8" d="M-904.8 602.7h-11.4c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-904.2 602.7-904.8 602.7L-904.8 602.7z"/> <path class="stwa8" d="M-885.5 592.9h-11.4c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-884.9 592.9-885.5 592.9L-885.5 592.9z"/> <path class="stwa8" d="M-885.5 597.8h-11.4c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-884.9 597.8-885.5 597.8L-885.5 597.8z"/> <path class="stwa8" d="M-885.5 602.7h-11.4c-0.6 0-1.1-0.5-1.1-1.2s0.5-1.2 1.1-1.2h11.4c0.6 0 1.1 0.5 1.1 1.2S-884.9 602.7-885.5 602.7L-885.5 602.7z"/> <rect x="-936.7" y="569.6" class="stwa9" width="13.6" height="14.7"/> <rect x="-898" y="569.6" class="stwa9" width="13.6" height="14.7"/> <rect x="-917.3" y="569.6" class="stwa9" width="13.6" height="14.7"/> </svg>                                    </div>
+                            </div>
+                            <div class="mt-card-content"> <span class="mt-card-title activator grey-text text-darken-4">Web development</span>
+                                <p> Creating an optimal solution means understanding your product/ service, as well as your audience... </p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p> Creating an optimal solution means understanding your product/ service, as well as your audience. Our focus is creation of a user friendly presentation to your audience, and a solution that works for your team. </p>
+                            </div>
+                            <div class="mt-card-action"> <span class="activator"><i class="material-icons bac-right">more_horiz</i></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                        <div class="mt-card">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <div class="activator"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1004 511 183 123"> <style type="text/css">.stwm0 {
+                                fill: #4DD0E1;
+                                }
+                                .stwm1 {
+                                fill: #26C6DA;
+                                }
+                                .stwm2 {
+                                fill: #334A5C;
+                                }
+                                .stwm3 {
+                                fill: #F5F5F5;
+                                }
+                                .stwm4 {
+                                fill: #FFFFFF;
+                                }
+                                .stwm5 {
+                                fill: #1C2E3B;
+                                }</style> <rect x="-1004" y="511" class="stwm0" width="182.9" height="123"/> <path class="stwm1" d="M-1004 511l184 123V511H-1004z"/> <path class="stwm2" d="M-888 544.7v2.9h-5.7 -40.3v-2.9c0-3.7 3-6.7 6.8-6.7h32.5C-891 538-888 541-888 544.7L-888 544.7z"/> <path class="stwm2" d="M-927 602.8h39v3.3c0 3.7-3 6.7-6.8 6.7h-1.9 -30.6c-3.7 0-6.8-3-6.8-6.7v-3.3H-927L-927 602.8z"/> <path class="stwm3" d="M-888 574v28.8h-39l33.3-54.9v-0.2h5.7v18.2V574z"/> <path class="stwm4" d="M-893.7 547.7v0.2l-33.3 54.9h-7v-55.1H-893.7z"/> <path class="stwm2" d="M-918.1 581.4c-0.5 0-0.9-0.2-1.3-0.5l-5.7-5.7c-0.7-0.7-0.7-1.9 0-2.6l5.7-5.7c0.7-0.7 1.9-0.7 2.6 0 0.7 0.7 0.7 1.9 0 2.6l-4.4 4.4 4.4 4.4c0.7 0.7 0.7 1.9 0 2.6C-917.1 581.3-917.6 581.4-918.1 581.4L-918.1 581.4z"/> <path class="stwm2" d="M-904 581.4c-0.5 0-0.9-0.2-1.3-0.5 -0.7-0.7-0.7-1.9 0-2.6l4.4-4.4 -4.4-4.4c-0.7-0.7-0.7-1.9 0-2.6 0.7-0.7 1.9-0.7 2.6 0l5.7 5.7c0.7 0.7 0.7 1.9 0 2.6l-5.7 5.7C-903 581.3-903.5 581.4-904 581.4L-904 581.4z"/> <path class="stwm2" d="M-913.3 586c-0.1 0-0.2 0-0.4 0 -1-0.2-1.6-1.2-1.4-2.1l4-20.5c0.2-1 1.2-1.6 2.2-1.4 1 0.2 1.6 1.2 1.4 2.1l-4 20.5C-911.7 585.4-912.4 586-913.3 586L-913.3 586z"/> </svg>                                    </div>
+                            </div>
+                            <div class="mt-card-content"> <span class="mt-card-title activator grey-text text-darken-4">Mobile development</span>
+                                <p>Expanding your outreach to mobile devices, allowing you consistent presence across various tech...</p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p> Expanding your outreach to mobile devices, allowing you consistent presence across various tech mediums, using full range of mobile platforms, such as Google Android, Apple iOS, Microsoft Windows Phone. </p>
+                            </div>
+                            <div class="mt-card-action"> <span class="activator"><i class="material-icons bac-right">more_horiz</i></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                        <div class="mt-card">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <div class="activator"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1004 511 183 123"> <style type="text/css">.stwc0 {
+                                fill: #4DD0E1;
+                                }
+                                .stwc1 {
+                                fill: #26C6DA;
+                                }
+                                .stwc2 {
+                                fill: #446076;
+                                }
+                                .stwc3 {
+                                fill: #334A5C;
+                                }
+                                .stwc4 {
+                                fill: #FFFFFF;
+                                }</style> <rect x="-1004" y="511" class="stwc0" width="182.9" height="123"/> <path class="stwc1" d="M-1004 511l184 123V511H-1004z"/> <path class="stwc2" d="M-934.5 568c-8.2 1.3-14.5 8.5-14.5 17.1 0 9.5 7.8 17.3 17.3 17.3h21.6v-53.8C-921.9 548.6-931.9 556.8-934.5 568L-934.5 568zM-911.6 587.6l-3.5 3.5 -13.2-13.2 13.2-13.2 3.5 3.5 -9.7 9.7L-911.6 587.6 -911.6 587.6z"/> <path class="stwc3" d="M-885.7 568c-2.6-11.3-12.6-19.4-24.4-19.4v53.8h21.6c9.5 0 17.3-7.8 17.3-17.3C-871.1 576.5-877.4 569.4-885.7 568L-885.7 568zM-905.1 591.1l-3.5-3.5 9.7-9.7 -9.7-9.7 3.5-3.5 13.2 13.2L-905.1 591.1 -905.1 591.1z"/> <path class="stwc4" d="M-915.1 564.7l-13.2 13.2 13.2 13.2 3.5-3.5 -9.7-9.7 9.7-9.7L-915.1 564.7z"/> <path class="stwc4" d="M-908.5 568.2l9.7 9.7 -9.7 9.7 3.5 3.5 13.2-13.2 -13.2-13.2L-908.5 568.2z"/> </svg>                                    </div>
+                            </div>
+                            <div class="mt-card-content"> <span class="mt-card-title activator grey-text text-darken-4">Cloud Computing</span>
+                                <p> Migrate your IT infrastructure to a cloud platform to add security and flexibility to your existing system... </p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p> Migrate your IT infrastructure to a cloud platform to add security and flexibility to your existing system. We will consult with you on the best solution and help implement and guide the whole process. This will reduce
+                                    costs, provide you with more control over your infrastructure and put your mind at ease. </p>
+                            </div>
+                            <div class="mt-card-action"> <span class="activator"><i class="material-icons bac-right">more_horiz</i></span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bac-text-row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="bac-bg-section">
+                        <p> We are an innovation hub of talented and solution oriented techies. <br> We belive in collaboration, creative solutions and building amazing solutions and experiences </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row bac-experts-row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h2 class="bac-header">We are <span>experts</span> at ...</h2> </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="bac-img-container"> <img src="images/whatwedo/html5.e8e27509.png" alt="html5"> <img src="images/whatwedo/js.2e6e055b.png" alt="js"> <img src="images/whatwedo/css3.225fa6a3.png" alt="css3"> <img src="images/whatwedo/angular.a875be38.png" alt="angular">                            <img src="images/whatwedo/ws.97c90fdc.png" alt="ws"> <img data-src="images/whatwedo/react.62d9202b.png" alt="react"> <img data-src="images/whatwedo/he.b70af8d0.png" alt="heroku"> <img data-src="images/whatwedo/nj.bdf04985.png"
+                                alt="node"> <img src="images/whatwedo/php.c88dadd9.png" alt="php"> <img src="images/whatwedo/and.d7f3c447.png" alt="android"> </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#landing" class="btn btn-danger btn-fab bac-fab-up hvr-glow hvr-radial-in"> <i class="material-icons">keyboard_arrow_up</i>
+                <div class="ripple-container"></div>
+            </a>
+        </section>
+        <!-- ### END_whatWeDo ###  -->
+        <!-- ### ourClients ###  -->
+        <section class="section bac-ourClients" data-anchor="ourClients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1 class="bac-header">Meet our <span>Clients</span></h1> </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 bac-clients-col">
+                        <div class="mt-card medium">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <a href="http://codenest.ba/" target="_blank"><img class="activator" src="images/clients/cnest.752066d7.png" alt=""></a>
+                            </div>
+                            <div class="mt-card-content">
+                                <p>Bay Area Coders engaged us to assist with developing an up and coming iOS mobile application. From negotiating the scope of project, to weekly check in meetings, mediation with the end client, the process was professional
+                                    and smooth. We enjoyed working with Sead and his team and would not hesitate to work with Bay Area Coders again!</p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p> Bay Area Coders engaged us to assist with developing an up and coming iOS mobile application. From negotiating the scope of project, to weekly check in meetings, mediation with the end client, the process was professional
+                                    and smooth. We enjoyed working with Sead and his team and would not hesitate to work with Bay Area Coders again! </p>
+                            </div>
+                            <div class="mt-card-action"> <span class="bac-position-name">Zlatan Mulabegovic</span> <span class="bac-position-name">CodeNest, CEO</span> <span class="activator"><i class="material-icons bac-right">more_horiz</i></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 bac-clients-col">
+                        <div class="mt-card medium">
+                            <div class="mt-card-image waves-effect waves-block waves-light">
+                                <a href="http://thechive.com/" target="_blank"> <img class="activator" src="images/clients/chive.359cbdbe.svg" alt=""></a>
+                            </div>
+                            <div class="mt-card-content">
+                                <p>Bay Area Coders has been a trusted partner over the past year in assisting theCHIVE (a.k.a. Resignation Media) with execution of high profile projects. The engineers chosen for our profile fit the company culture and hit
+                                    the ground running. I can honestly say that their contributions made our projects move forward faster and more efficiently. I look forward to our continued collaboration in the years to come.</p>
+                            </div>
+                            <div class="mt-card-reveal"> <span class="mt-card-title grey-text text-darken-4"><i class="material-icons bac-right">close</i></span>
+                                <p>Bay Area Coders has been a trusted partner over the past year in assisting theCHIVE (a.k.a. Resignation Media) with execution of high profile projects. The engineers chosen for our profile fit the company culture and hit
+                                    the ground running. I can honestly say that their contributions made our projects move forward faster and more efficiently. I look forward to our continued collaboration in the years to come.</p>
+                            </div>
+                            <div class="mt-card-action"> <span class="bac-position-name">Alen Durbuzovic</span> <span class="bac-position-name">Resignation Media, CTO</span> <span class="activator"><i class="material-icons bac-right">more_horiz</i></span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bac-fuck-ios-hack bac-project-footer"> <a href="#"><h1> <span class="hidden-xs">&gt;&gt;</span> Have a <span>project</span> for us? <span class="hidden-xs"> &lt;&lt; </span> </h1></a> </footer>
+            <a href="#landing" class="btn btn-danger btn-fab bac-fab-up hvr-glow hvr-radial-in">
+            <i class="material-icons">keyboard_arrow_up</i>
+                <div class="ripple-container"></div>
+            </a>
+        </section>
+        <!-- ### END_ourClients ###  -->
+        <!-- ### ourTeam ###  -->
+        <section class="section bac-ourTeam fp-responsive" data-anchor="ourTeam">
+            <div class="row">
+                <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> -->
+                <div class="bac-tm-container team-slider">
+                    <div class="sd-card sd-card--small">
+                        <div class="sd-card__image" style="background-image: url('../images/ourteam/adnan.545ee098.jpg')"></div>
+                        <h2 class="sd-card__title">Adnan Ahmethodžić</h2> <span class="sd-card__subtitle">Software Engineer</span>
+                        <p class="sd-card__text">"Software is what it's all about. Whether you use C++, Scala or F#, at the end of the day the only thing matters is what you deliver. And we deliver the best."</p>
+                    </div>
+                    <div class="sd-card sd-card--small sd-dark sd-right-position">
+                        <div class="sd-card__image" style="background-image: url('../images/ourteam/igor.97178b1b.jpg')"></div>
+                        <h2 class="sd-card__title">Igor Jakovljević</h2> <span class="sd-card__subtitle">Web Developer</span>
+                        <p class="sd-card__text">"Can it be engineered? If yes, we will engineer it. 'Do or do not. There is no try'. '"</p>
+                    </div>
+                    <div class="sd-card sd-card--small sd-dark">
+                        <div class="sd-card__image" style="background-image: url('../images/ourteam/elvedin.0a91bb43.jpg')"></div>
+                        <h2 class="sd-card__title">Elvedin Turković</h2> <span class="sd-card__subtitle">Software Engineer</span>
+                        <p class="sd-card__text">"If you write the first line of code without thinking about the 100th, you're not doing it right. Plan it before you put it down, or it will come back to haunt you."</p>
+                    </div>
+                    <div class="sd-card sd-card--small sd-right-position">
+                        <div class="sd-card__image" style="background-image: url('../images/ourteam/jasmin.eb06488d.jpg')"></div>
+                        <h2 class="sd-card__title">Jasmin Sinanović</h2> <span class="sd-card__subtitle">Software Engineer</span>
+                        <p class="sd-card__text">"The function of good software is to make the complex appear to be simple."</p>
+                    </div>
+                    <div class="sd-card sd-card--small sd-dark">
+                        <div class="sd-card__image" style="background-image: url('../images/ourteam/goran.jpg')"></div>
+                        <h2 class="sd-card__title">Goran Kokinovski</h2> <span class="sd-card__subtitle">Software Engineer</span>
+                        <p class="sd-card__text">"'Technology gives us power, but it does not and cannot tell us how to use that power.' Yet with our courage and knowledge, we found a way."</p>
+                    </div>
+                    <div class="sd-card sd-card--small sd-right-position">
+                        <div class="sd-card__image" style="background-image: url('../images/ourteam/boban.JPG')"></div>
+                        <h2 class="sd-card__title">Boban Bozhinovski</h2> <span class="sd-card__subtitle">Software Engineer</span>
+                        <p class="sd-card__text">"'Good design adds value faster than it adds cost.' And we design greatness from the start."</p>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bac-col-apply">
+                    <h1 class="bac-header">We're <span>Hiring</span></h1> <button ng-click="contact()" class="btn btn-raised btn-primary bac-btn-apply"> Apply Now <div class="ripple-container"></div> </button>
+                    <h3> #bayAreaCoders </h3> </div>
+            </div>
+            <footer class="bac-fuck-ios-hack section-autoHeight footer">
+                <h3>“We are a team of individuals passionate about technology and problem solving”</h3> </footer>
+            <a href="#landing" class="btn btn-danger btn-fab bac-fab-up hvr-glow hvr-radial-in"> <i class="material-icons">keyboard_arrow_up</i>
+                <div class="ripple-container"></div>
+            </a>
+        </section>
+        <!-- ### END_ourTeam ###  -->
+        <!-- ### Contact ###  -->
+        <section class="section bac-contact" data-anchor="contact">
+            <div class="row bac-row" style="height:100%">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bac-col-header">
+                    <h1 class="bac-ct-header"> <div class="bac-notification" ng-bind-html="notification"></div><span class="bac-icons"> <a href="https://www.facebook.com/bayareacoders/"><i class="fa fa-facebook fa-round"></i></a> <a href="https://www.linkedin.com/company/bay-area-coders-llc"><i class="fa fa-linkedin fa-round"></i></a> <a href="https://www.twitter.com/bay_area_coders"><i class="fa fa-twitter fa-round"></i></a> </span> </h1> </div>
+                <form class="" action="" method="">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bac-form-col">
+                        <div class="form-group label-floating is-empty"> <label for="i5" class="control-label">Your name</label> <input type="text" class="form-control" ng-model="message.name" id="i5" ng-required="true"> <span class="help-block"><code>Tell us who you are :)</code></span> </div>
+                        <div
+                            class="form-group label-floating is-empty"> <label for="i5" class="control-label">Email</label> <input type="email" class="form-control" ng-model="message.email" id="i5" ng-required="true"> <span class="help-block"><code>So we can write you back!</code></span> </div>
+                    <div
+                        class="form-group label-floating is-empty"> <label for="i5" class="control-label">Company / Organization</label> <input type="text" ng-model="message.sender" class="form-control" id="i5" ng-required="true"> </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bac-textarea-col">
+        <div class="form-group label-floating bac-textarea-msg"> <label for="t1" class="control-label">Message</label> <textarea ng-model="message.text" id="t1" class="form-control" rows="7"></textarea> </div>
+        <a class="btn btn-raised btn-info bac-send" ng-click="sendEmail()"> <i class="material-icons">send</i>
+            <div class="ripple-container"></div>
+        </a>
+    </div>
+    </form>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bac-col-map">
+        <div id="map"> </div>
+        <div class="mt-card-panel">
+            <h3>We have <span>great coffee</span>, <br> feel free to stop by </h3>
+            <div class="row bac-contact-card">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> <i class="fa fa-map-marker" aria-hidden="true"></i> <span>Bay Area Coders</span>
+                    <p> 2542 38th Ave <br> San Francisco, <br> CA 94116 United States </p>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 bac-col-contact-msg"> <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@bayareacoders.com" target="_top"><span>info@bayareacoders.com</span></a> <br> <br> <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:415-233-1935"><span>415-233-1935</span></a>                    </div>
+            </div>
+        </div>
+    </div>
+    <a href="#landing" id="glo" class="btn btn-danger btn-fab bac-fab-up hvr-glow hvr-radial-in"> <i class="material-icons">keyboard_arrow_up</i>
+        <div class="ripple-container"></div>
+    </a>
+    </div>
+    </section>
+    <!-- ### END_Contact ###  -->
+    </div>
+    <!-- ### END_fullpage.js ###  -->
+    <!--[if IE]>
+      <script type="text/javascript">
+          var console = { log: function() {} };
+      </script>
+  <![endif]-->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+        ! function(A, n, g, u, l, a, r) {
+            A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
+                    (A[l].q = A[l].q || []).push(arguments)
+                }, A[l].l = +new Date, a = n.createElement(g),
+                r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+        }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-81892371-1');
+        ga('send', 'pageview');
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="scripts/vendor.ca22b889.js"></script>
+    <script src="scripts/slick.887fd405.js"></script>
+    <script src="scripts/materialize.c62359e1.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" defer async></script>
+    <script src="scripts/scripts.0970d552.js"></script>
+</body>
+
+</html>
+<!-- </html> -->
